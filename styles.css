@@ -22,3 +22,7 @@ p,h1{
   align-items: center;
   align-content: space-between;
 }
+
+.gallery-item{
+  max-height: 20rem;
+}
