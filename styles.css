@@ -2,6 +2,23 @@
   background-color: lightblue;
 }
 
-.gallery-container {
+p,h1{
+  text-align: center;
+}
+
+#fruit{
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.gallery-item-container {
   /* TODO add styles (hint: use flex!) https://www.w3schools.com/cssref/ */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  align-content: space-between;
 }
